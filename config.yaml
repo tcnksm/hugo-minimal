@@ -1,32 +1,7 @@
 ---
-
-baseurl:            http://blog.nilproductions.com/
-pygmentsuseclasses: true 
-theme:              hugo-incorporated
-
 params:
   inc:
     # Blog Information
-    title:        "Hugo Incorporated"
-    subtitle:     "Modern Hugo based blog for companies"
-    cover_image:  blog-cover.jpg
-    logo:         logo.png
-    
-    # Company information
-    company:      nil productions 
-    url:          http://nilproductions.com/
-#    facebook:     
-    github:       nilproductions
-    twitter:      nw_iw
-#    gplus:        ''
-    about_link:   http://nilproductions.com/about/
-    
-    # Product Information
-    product_link: http://nilproductions.com/
-    tagline:      "Coming up nil for quite some time."
-    
-    # Comments
-    disqus:
       # Set a shortname to enable disqus comments
 #      shortname:  false
     

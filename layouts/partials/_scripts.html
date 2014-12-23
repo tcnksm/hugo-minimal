@@ -28,4 +28,11 @@
 {{ with .Site.Params.inc.analytics.googleid }}
   {{ partial "_google-analytics.html" . }}
 {{ end }}
-{{ partial "_piwik-analytics.html" . }}
+
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  $('iframe').css('style', 'display: block; margin: 0px auto;');
+  });
+</script>
