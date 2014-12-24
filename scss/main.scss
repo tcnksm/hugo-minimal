@@ -1,13 +1,16 @@
 /* CONFIGURATION */
 
+/* Title font */
+$font-title: "Lato";
+
 /* Bodytext font */
-$font: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
 
 /* Font for headings */
-$fontheadings: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fontheadings: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
 
 /* Text colors */
-$text: #21272d;
+$text: #555 !default;
 $textmuted: #848484;
 $accent: #2077b2;
 

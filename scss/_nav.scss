@@ -1,15 +1,7 @@
 .site-nav {
     background:#fff;
-    height:80px;
-    position:absolute;
-    left:0;
-    right:0;
-    top:0;
-    box-shadow:0 0 1px 1px rgba(0,0,0,0.1);
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    transition:all 0.35s ease;
-    z-index:100;
+    max-width: 900px;
+    margin: 0 auto;
     
     .caret {
         opacity:0.2;
@@ -26,10 +18,13 @@
     }
     
     nav {
-        padding:22px 30px;
-        float:left;
-        height:80px;
-        display:table-cell;
+        margin: 0 6em;
+        margin-top: 75px;
+        margin-bottom: 25px;
+        /* padding:22px 30px; */
+        /* float:left; */
+        /* height:80px; */
+        /* display:table-cell; */
     }
     
     #navigation {
@@ -37,7 +32,6 @@
         
         a {
             border:0;
-            margin:0 0.9em;
             display:inline-block;
             
             &:hover {
@@ -48,8 +42,9 @@
         > a, .dropdown-toggle  {
             color:#444;
             border:0;
-            font-weight:600;
-            font-size:15px;
+            font-family: $font-title;
+            font-weight:900;
+            font-size:30px;
             display:inline-block;
         }
         
